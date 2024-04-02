@@ -33,7 +33,7 @@ Step 4: Configure kubectl
 
 Now that we have created our EKS cluster, we need to configure kubectl to communicate with it. Run the following command to configure kubectl:
 
-aws eks --region us-west-2 update-kubeconfig --name my-eks-cluster
+aws eks --region us-east-1 update-kubeconfig --name my-eks-cluster
 This command will update your kubectl configuration to communicate with your EKS cluster.
 
 Step 5: Verify the EKS Cluster
@@ -45,4 +45,4 @@ This command should show you the worker nodes that are running in your EKS clust
 
 Conclusion:
 
-In this tutorial, we have walked through the process of deploying Amazon EKS with Terraform and a GitHub repo. Using a repo for your Terraform configuration files makes it easy to version control and collaborate on infrastructure changes. Terraform makes it easy to provision and manage resources on AWS, and EKS is a fully managed Kubernetes service that makes it easy to run Kubernetes on AWS. Together, they provide a powerful and scalable platform for running containerized applications.
+we have walked through the process of deploying Amazon EKS with Terraform and a GitHub repo. Using a repo for your Terraform configuration files makes it easy to version control and collaborate on infrastructure changes. Terraform makes it easy to provision and manage resources on AWS, and EKS is a fully managed Kubernetes service that makes it easy to run Kubernetes on AWS. Together, they provide a powerful and scalable platform for running containerized applications.
