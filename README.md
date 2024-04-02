@@ -45,4 +45,4 @@ This command should show you the worker nodes that are running in your EKS clust
 
 Conclusion:
 
-In this tutorial, we have walked through the process of deploying Amazon EKS with Terraform and a GitHub repo. Using a repo for your Terraform configuration files makes it easy to version control and collaborate on infrastructure changes. Terraform makes it easy to provision and manage resources on AWS, and EKS is a fully managed Kubernetes service that makes it easy to run Kubernetes on AWS. Together, they provide a powerful and scalable platform for running containerized applications.
+ we have walked through the process of deploying Amazon EKS with Terraform and a GitHub repo. Using a repo for your Terraform configuration files makes it easy to version control and collaborate on infrastructure changes. Terraform makes it easy to provision and manage resources on AWS, and EKS is a fully managed Kubernetes service that makes it easy to run Kubernetes on AWS. Together, they provide a powerful and scalable platform for running containerized applications.
